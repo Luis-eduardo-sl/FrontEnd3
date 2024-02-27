@@ -2,11 +2,16 @@ import MinhaFoto from "./MinhaFoto"
 import Paragrafo from "./Paragrafo"
 import Titulo from "./Titulo"
 
-function Cartao (){
+function Cartao (props){
     return(
         <div >
-            <Titulo/>
-            <MinhaFoto/>
+            <Titulo 
+                Titulo ={props.Titulo}
+                Subtitulo={props.Subtitulo}
+            />
+            <MinhaFoto
+                Foto={props.Foto}
+            />
             <Paragrafo/>
         </div>
     )

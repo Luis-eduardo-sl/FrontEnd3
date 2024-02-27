@@ -1,15 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-import HelloWord from './components/HelloWord';
-import Titulo from './components/Titulo';
-import MinhaFoto from './components/MinhaFoto';
-import Paragrafo from './components/Paragrafo';
 import Cartao from './components/Cartao';
 
 function App() {
   return (
     <div className="App">
-      <Cartao/>
+      <Cartao
+          Titulo= "Meu novo Titulo"
+          Subtitulo= " jfgbnv rjs vedfubnia bdfg"
+          Foto= "https://via.placeholder.com/200"
+
+      />
+      <Cartao
+          Titulo= "Meu novo Titulo 2"
+          Subtitulo= " jfgbnv rjs vedfubnia bdfg"
+          Foto= "https://via.placeholder.com/100"
+
+      />
     </div>
   );
 }
