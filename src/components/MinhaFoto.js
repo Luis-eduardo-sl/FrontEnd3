@@ -1,8 +1,7 @@
-function MinhaFoto() {
-    const url = "https://via.placeholder.com/100"
+function MinhaFoto(props) {
     return(
         <div>
-            <img src={url} alt="Minha Foto" />
+            <img src={props.Foto} alt="Minha Foto" />
         </div>
     )
 }
